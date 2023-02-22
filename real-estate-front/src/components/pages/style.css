@@ -1,0 +1,35 @@
+body{
+    display: grid;
+}
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+.heroText{
+    width: 280px;
+    height: 300px;
+}
+.heroImage{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: hidden;
+    text-align: center;
+    width: 280px;
+    margin: 0px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    height: 300px;
+}
+.heroButton{
+    background-color: rgb(29, 27, 27);
+    border-radius: .5rem;
+    padding: 2%;
+    color: aliceblue
+}
+.heroButton:hover{
+    color:  rgb(29, 27, 27);
+    background-color: aliceblue;
+
+}
